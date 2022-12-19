@@ -4,7 +4,7 @@ export default function Sidebar() {
   const [open, setOpen] = useState(false);
   return (
     <div class="flex flex-col w-56 h-screen px-4 py-8 bg-[#0f172a] border-r dark:bg-gray-900 dark:border-gray-700 ">
-      <h2 class="text-3xl font-semibold text-gray-800 dark:text-white">
+      <h2 class="text-3xl font-semibold text-gray-800 dark:text-white pl-8">
         <img src="bi0s.jpeg" style={{ height: 50, width: 100 }} />
       </h2>
 

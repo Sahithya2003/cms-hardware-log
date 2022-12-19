@@ -5,13 +5,13 @@ export default function Content() {
   return (
     <div>
       <div class="flex items-center bg-gray-100 dark:bg-gray-900  ">
-        <h1 class="text-4xl font-normal md:font-bold mt-5 mx-2">
+        <h1 class="text-4xl font-normal md:font-bold mt-5 mx-2 text-[#0f172a]">
           Hardware Log
         </h1>
       </div>
       <div class="flex items-center bg-gray-100 dark:bg-gray-900  ">
         <div class="mx-2 w-8">
-          <h1 class="text-2xl  font-bold ">Stats</h1>
+          <h1 class="text-2xl  font-bold text-[#0f172a]">Stats</h1>
         </div>
 
         <div class="container max-w-6xl px-10 mx-0 my-10 ">

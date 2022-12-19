@@ -90,11 +90,11 @@ function App() {
   const data = React.useMemo(() => getData(), []);
 
   return (
-    <div className="flex flex-row h-screen fixed bg-gray-100 text-gray-900">
+    <div className="flex flex-row h-screen  bg-gray-100 text-gray-900">
       <div>
         <Sidebar />
       </div>
-      <div className="flex flex-col w-screen overflow-scroll ">
+      <div className="flex flex-col flex-grow overflow-x-hidden ">
         <div>
           <Content />
         </div>
